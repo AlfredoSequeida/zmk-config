@@ -14,13 +14,17 @@
 #define LOWER   1
 #define RAISE   2
 #define MOUSE   3
+#define MOUSE_ACCELERATION_COMPONENT  2
+#define MOUSE_TIME_TO_MAX_SPEED  500
 
 &mmv {
-    time-to-max-speed-ms = <500>;
+    time-to-max-speed-ms = <MOUSE_TIME_TO_MAX_SPEED>;
+    acceleration-exponent = <MOUSE_ACCELERATION_COMPONENT>;
 };
 
 &mwh {
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <MOUSE_TIME_TO_MAX_SPEED>;
+    acceleration-exponent = <MOUSE_ACCELERATION_COMPONENT>;
 };
 
 / {
