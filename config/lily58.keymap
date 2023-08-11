@@ -11,7 +11,7 @@
 
 #define MOUSE_TIME_TO_MAX_SPEED 250 
 
-#define U_MOUSE_MOVE_MAX 1400
+#define U_MOUSE_MOVE_MAX 2000
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
