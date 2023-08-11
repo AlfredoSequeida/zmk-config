@@ -9,7 +9,7 @@
 #define RAISE 2
 #define MOUSE 3
 
-#define MOUSE_TIME_TO_MAX_SPEED 50
+#define MOUSE_TIME_TO_MAX_SPEED 250 
 
 #define U_MOUSE_MOVE_MAX 1400
 #undef MOVE_UP
