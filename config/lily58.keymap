@@ -25,7 +25,7 @@
     time-to-max-speed-ms = <MOUSE_TIME_TO_MAX_SPEED>;
 };
 
-#define U_MOUSE_SCROLL_MAX 100
+#define U_MOUSE_SCROLL_MAX 50
 
 #undef SCROLL_UP
 #undef SCROLL_DOWN
