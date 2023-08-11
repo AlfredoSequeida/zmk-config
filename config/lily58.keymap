@@ -14,7 +14,7 @@
 #define LOWER   1
 #define RAISE   2
 #define MOUSE   3
-#define MOUSE_ACCELERATION_COMPONENT  5
+#define MOUSE_ACCELERATION_COMPONENT 20 
 #define MOUSE_TIME_TO_MAX_SPEED  500
 
 &mmv {
