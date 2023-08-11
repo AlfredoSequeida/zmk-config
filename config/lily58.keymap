@@ -8,17 +8,16 @@
 #define LOWER 1
 #define RAISE 2
 #define MOUSE 3
-#define MOUSE_ACCELERATION_EXPONENT 500 
 #define MOUSE_TIME_TO_MAX_SPEED 500
+#define U_MOUSE_MOVE_MAX 1400
+#define U_MOUSE_SCROLL_MAX 100
 
 &mmv {
     time-to-max-speed-ms = <MOUSE_TIME_TO_MAX_SPEED>;
-    acceleration-exponent = <MOUSE_ACCELERATION_EXPONENT>;
 };
 
 &mwh {
     time-to-max-speed-ms = <MOUSE_TIME_TO_MAX_SPEED>;
-    acceleration-exponent = <MOUSE_ACCELERATION_EXPONENT>;
 };
 
 / {
